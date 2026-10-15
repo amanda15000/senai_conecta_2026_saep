@@ -23,7 +23,8 @@ require_once __DIR__ . '/helpers/jwt_helper.php';
 $db = (new Database())->getConnection();
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $method = $_SERVER['REQUEST_METHOD'];
-$basePath = '/senai_conecta/backend';
+$basePath = '/senai_conecta_2026_saep/backend';
+
 
 if (str_starts_with($uri, $basePath)) {
     $uri = substr($uri, strlen($basePath));

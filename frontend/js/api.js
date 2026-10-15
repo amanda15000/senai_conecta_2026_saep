@@ -1,4 +1,5 @@
-const API_BASE_URL = 'http://localhost:8080/senai_conecta/backend';
+ const API_BASE_URL = 'http://localhost:8080/senai_conecta_2026_saep/backend';
+;
 const UPLOADS_URL = `${API_BASE_URL}/uploads/`;
 
 // Monta o endereço de uma imagem salva em backend/uploads/
